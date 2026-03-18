@@ -1,0 +1,49 @@
+.navbar{
+    display: flex;
+    gap: 50px;
+    position: relative;
+    left: 400px ;
+    
+}
+
+.JaneDoe{
+    background-color: rgba(93, 95, 239, 0.1);
+    flex-direction:
+}
+.Hi{
+width: 464.3721618652344;
+height: 214;
+top: 105px;
+angle: 0 deg;
+opacity: 1;
+width: 78.07130432128906;
+height: 29;
+top: 105px;
+angle: 0 deg;
+opacity: 1;
+
+
+}
+
+.Jane{
+    font-size: 20px;
+}
+.Lorem2{
+    width: 464.3721618652344;
+height: 214;
+top: 105px;
+angle: 0 deg;
+opacity: 1;
+
+}
+.explore{
+    background-color: lightgrey;
+    color: blue;
+    border-color: #CBC3E3 ;
+    border-style: solid;
+    width: 100px;
+height: 50px;
+border-style: solid;
+border-color: blueviolet;
+border-radius: 20px;
+}
