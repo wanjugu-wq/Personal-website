@@ -1,49 +1,59 @@
-.navbar{
-    display: flex;
-    gap: 50px;
-    position: relative;
-    left: 400px ;
-    
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #dcdce6; /* light gray background */
 }
 
+/* Navbar */
+.navbar {
+  background-color: #e6e6e6;
+  padding: 15px 40px;
+  border-bottom: 2px solid #6c63ff;
+}
+
+.logo {
+  color: #6c63ff;
+  font-style: italic;
+}
+
+/* Hero Section */
 .JaneDoe{
-    background-color: rgba(93, 95, 239, 0.1);
-    flex-direction:
-}
-.Hi{
-width: 464.3721618652344;
-height: 214;
-top: 105px;
-angle: 0 deg;
-opacity: 1;
-width: 78.07130432128906;
-height: 29;
-top: 105px;
-angle: 0 deg;
-opacity: 1;
-
-
+  padding: 100px 80px;
 }
 
-.Jane{
-    font-size: 20px;
+.Hi {
+  color: #6c63ff;
+  font-size: 18px;
 }
-.Lorem2{
-    width: 464.3721618652344;
-height: 214;
-top: 105px;
-angle: 0 deg;
-opacity: 1;
 
+.Jane {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 10px 0;
 }
-.explore{
-    background-color: lightgrey;
-    color: blue;
-    border-color: #CBC3E3 ;
-    border-style: solid;
-    width: 100px;
-height: 50px;
-border-style: solid;
-border-color: blueviolet;
-border-radius: 20px;
+
+.Lorem1{
+  max-width: 500px;
+  color: #444;
+  line-height: 1.5;
+}
+
+/* Button */
+.explore {
+  margin-top: 20px;
+  padding: 12px 25px;
+  border: 2px solid #6c63ff;
+  background: transparent;
+  color: #6c63ff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #6c63ff;
+  color: white;
+}
+.JaneDoe {
+    display: flex;
+    
 }
