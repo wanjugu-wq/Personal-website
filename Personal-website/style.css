@@ -1,0 +1,159 @@
+body {
+  background-color:#fff8f5;
+  padding:10px;
+  margin:0;
+  font-size:1.05rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar{
+  background-color: crimson;
+  position: fixed;
+  width: 100%;
+  top:0px;
+  left:0px;
+  margin:0px;
+  padding:1em 0;
+}
+.navbar ul {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li a {
+  color: white;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+.navbar ul li a:hover{
+  color: black
+}
+header {
+  margin-top: 4em;
+  text-align: center;
+  border-bottom: 1px solid crimson;
+  padding-bottom: 1em;
+}
+header p{
+  font-family: cursive;
+}
+header ul li a{
+  color: crimson;
+}
+header ul li a:hover{
+  color: lightcoral;
+}
+#aboutme{
+  text-align: center;
+}
+.grid-img-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+}
+.image {
+  width: 100%;
+  max-width: 300px;
+  height:auto;
+  border-radius: 10px;
+}
+img {
+  width: 200px;      /* fixed width */
+  height: 150px;     /* fixed height */
+  object-fit: cover; /* fills the box, crops excess */
+  border-radius: 10px;
+}
+.text{
+  width: 100%;
+  max-width: 300px;
+}
+.text ul {
+  list-style: none;
+  padding:0;
+}
+img {
+  width: 100%;
+  max-width: 300px;
+  height: 50%;
+}
+#aboutme {
+  text-align: center;
+  border-bottom: crimson solid 1px;
+}
+#projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  align-items: start;
+  padding:10px;
+  margin-bottom:20px;
+}
+#projects div {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 8px;
+  border:solid lightslategray 1px;
+  width: 300px;
+  gap: 20px;
+  height: auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color:#f09c9c;
+  text-align: center;
+  padding:10px;
+}
+#projects div a{
+
+  text-decoration: none;
+  color:whitesmoke;
+  text-align: center;
+}
+#projects div a:hover{
+  color:blanchedalmond;
+}
+
+h2{
+  text-align:center;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.footer{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content:center;
+  margin: 0px;
+  padding:5px;
+  background: crimson;
+  color:white;
+  text-align: center;
+  min-width: 272px;
+}
+.footer ul{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap:50px;
+}
+.footer ul li a:hover{
+  color:black;
+}
+.footer ul li a{
+  color:white; 
+  text-decoration: none;
+}
+@media (max-width:370px){
+  .grid-img-text {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+}
