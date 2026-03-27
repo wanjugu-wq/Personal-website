@@ -1,21 +1,21 @@
 body {
-  background-color:#fff8f5;
-  padding:10px;
-  margin:0;
-  font-size:1.05rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #fff8f5;
+  padding: 10px;
+  margin: 0;
+  font-size: 1.05rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-.navbar{
+.navbar {
   background-color: crimson;
   position: fixed;
   width: 100%;
-  top:0px;
-  left:0px;
-  margin:0px;
-  padding:1em 0;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  padding: 1em 0;
 }
 .navbar ul {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
@@ -29,8 +29,8 @@ body {
   font-size: 1.1em;
   text-decoration: none;
 }
-.navbar ul li a:hover{
-  color: black
+.navbar ul li a:hover {
+  color: black;
 }
 header {
   margin-top: 4em;
@@ -38,16 +38,16 @@ header {
   border-bottom: 1px solid crimson;
   padding-bottom: 1em;
 }
-header p{
+header p {
   font-family: cursive;
 }
-header ul li a{
+header ul li a {
   color: crimson;
 }
-header ul li a:hover{
+header ul li a:hover {
   color: lightcoral;
 }
-#aboutme{
+#aboutme {
   text-align: center;
 }
 .grid-img-text {
@@ -59,22 +59,22 @@ header ul li a:hover{
 .image {
   width: 100%;
   max-width: 300px;
-  height:auto;
+  height: auto;
   border-radius: 10px;
 }
 img {
-  width: 200px;      /* fixed width */
-  height: 150px;     /* fixed height */
+  width: 200px; /* fixed width */
+  height: 150px; /* fixed height */
   object-fit: cover; /* fills the box, crops excess */
   border-radius: 10px;
 }
-.text{
+.text {
   width: 100%;
   max-width: 300px;
 }
 .text ul {
   list-style: none;
-  padding:0;
+  padding: 0;
 }
 img {
   width: 100%;
@@ -91,8 +91,8 @@ img {
   gap: 20px;
   justify-items: center;
   align-items: start;
-  padding:10px;
-  margin-bottom:20px;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 #projects div {
   box-sizing: border-box;
@@ -100,60 +100,63 @@ img {
   flex-direction: column;
   justify-content: space-around;
   border-radius: 8px;
-  border:solid lightslategray 1px;
+  border: solid lightslategray 1px;
   width: 300px;
   gap: 20px;
   height: auto;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  background-color:#f09c9c;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f09c9c;
   text-align: center;
-  padding:10px;
+  padding: 10px;
+  transition: transform 0.3s;
 }
-#projects div a{
-
+#projects div:hover {
+  transform: scale(1.05);
+}
+#projects div a {
   text-decoration: none;
-  color:whitesmoke;
+  color: whitesmoke;
   text-align: center;
 }
-#projects div a:hover{
-  color:blanchedalmond;
+#projects div a:hover {
+  color: blanchedalmond;
 }
 
-h2{
-  text-align:center;
+h2 {
+  text-align: center;
   padding: 0;
   margin-bottom: 5px;
 }
-.footer{
-  width:100%;
+.footer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content:center;
+  justify-content: center;
   margin: 0px;
-  padding:5px;
+  padding: 10px;
   background: crimson;
-  color:white;
+  color: white;
   text-align: center;
+  width: 100%;
   min-width: 272px;
 }
-.footer ul{
+.footer ul {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  gap:50px;
+  gap: 50px;
 }
-.footer ul li a:hover{
-  color:black;
+.footer ul li a:hover {
+  color: black;
 }
-.footer ul li a{
-  color:white; 
+.footer ul li a {
+  color: white;
   text-decoration: none;
 }
-@media (max-width:370px){
+@media (max-width: 370px) {
   .grid-img-text {
-  display: grid;
-  grid-template-columns: 1fr;
-}
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
