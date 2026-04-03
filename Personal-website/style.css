@@ -105,7 +105,8 @@ img {
   gap: 20px;
   height: auto;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  background-color: #f09c9c;
+  background-color: lightcoral;
+  color: whitesmoke;
   text-align: center;
   padding: 10px;
   transition: transform 0.3s;
@@ -114,12 +115,13 @@ img {
   transform: scale(1.05);
 }
 #projects div a {
+  display:inline-block;
   text-decoration: none;
   color: whitesmoke;
   text-align: center;
 }
 #projects div a:hover {
-  color: blanchedalmond;
+  color: black;
 }
 
 h2 {
